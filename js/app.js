@@ -29,7 +29,6 @@ function pintar(key) {
             document.getElementById("muestra").innerHTML = "<iframe src='./views/Ejercicio_5.html'></iframe>";
     
             break;
-    }
 
         //EJERCICIO 6
         case 6:
