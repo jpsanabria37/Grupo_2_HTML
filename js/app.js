@@ -36,19 +36,19 @@ function pintar(key) {
             
             break;
         //Ejercicio Fieldset
-        case 10:
+        case 9:
             document.getElementById("muestra").innerHTML = "<iframe src='./views/Fieldset.html'></iframe>";
             
             break;
 
         //Ejercicio Label
-        case 11:
+        case 10:
             document.getElementById("muestra").innerHTML = "<iframe src='./views/Label.html'></iframe>";
             
             break;
 
         //Ejercicio Fieldset
-        case 12:
+        case 11:
             document.getElementById("muestra").innerHTML = "<iframe src='./views/Keygen.html'></iframe>";
             
             break;
