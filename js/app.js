@@ -35,7 +35,6 @@ function pintar(key) {
             document.getElementById("muestra").innerHTML = "<iframe src='./views/Ejercicio6.html'></iframe>";
             
             break;
-<<<<<<< HEAD
         //Ejercicio 7
         case 7:
             document.getElementById("muestra").innerHTML = "<iframe src='./views/Ejercicio_7.html'></iframe>";
@@ -47,9 +46,7 @@ function pintar(key) {
 
             break;
 
-=======
     
->>>>>>> bb0abc43a083bcb854f5c4345ecc7224b75e9d0c
         //Ejercicio Fieldset
         case 9:
             document.getElementById("muestra").innerHTML = "<iframe src='./views/Fieldset.html'></iframe>";
