@@ -2,20 +2,20 @@ function pintar(key) {
     switch (key) {
         // MENU
         case 0:
-            document.getElementById("muestra").innerHTML = '';
+            document.getElementById("muestra").innerHTML = '<iframe src="./views/menu.html"></iframe>';
             break;
         //Ejercicio 1
         case 1:
-            document.getElementById("muestra").innerHTML = '<iframe src="./views/Ejercicio_1.html"></frame>';
+            document.getElementById("muestra").innerHTML = '<iframe src="./views/Ejercicio_1.html"></iframe>';
             break;
         //Ejercicio 2
         case 2:
-            document.getElementById("muestra").innerHTML = '<iframe src="./views/Ejercicio_2.html"></frame>';
+            document.getElementById("muestra").innerHTML = '<iframe src="./views/Ejercicio_2.html"></iframe>';
 
             break;
         //Ejercicio 3
         case 3:
-            document.getElementById("muestra").innerHTML = '<iframe src="./views/Ejercicio _3.html"></frame>';
+            document.getElementById("muestra").innerHTML = '<iframe src="./views/Ejercicio _3.html"></iframe>';
 
             break;
         //Ejercicio 4

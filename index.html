@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ARCHIVO DE BOOTSTRAP CSS COMPILADO-->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <title>Grupo 2</title>
+    <!-- ESTILOS AL AREA DE EJERICIOS-->
     <style>
       .body{
         width: 100%;
@@ -19,9 +21,10 @@
       }
     </style>
 </head>
-<body onload="pintar(1)">
+<body onload="pintar(0)">
+  <!-- CABECERA O HEADER-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#" onclick="pintar(0)">ADSI</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -42,10 +45,13 @@
       </ul>
     </div>
   </nav>  
+  <!-- CONTENIDO O CONTAINER-->
     <div class="container my-4 shadow">
       <div class="row">
         <div class="col-3 shadow-lg bg-light">
+          <!-- MENU DE EJERCICIOS-->
           <nav class="nav flex-column m-3">
+<<<<<<< HEAD
             <a class="nav-link active" href="#" onclick="pintar(1)">Ejercicio 1</a>
             <a class="nav-link" href="#" onclick="pintar(2)">Ejercicio 2</a>
             <a class="nav-link" href="#" onclick="pintar(3)">Ejercicio 3</a>
@@ -57,9 +63,18 @@
             <a class="nav-link " href="#" onclick="pintar(10)">Fieldset</a>
             <a class="nav-link " href="#" onclick="pintar(11)">Label</a>
             <a class="nav-link " href="#" onclick="pintar(12)">Keygen</a>
+=======
+            <a class="nav-link" href="#" onclick="pintar(1)"><b>Ejercicio 1 - Html JavaScript</b></a>
+            <a class="nav-link" href="#" onclick="pintar(2)"><b>Ejercicio 2 - Replica de texto en HTML</b></a>
+            <a class="nav-link" href="#" onclick="pintar(3)"><b>Ejercicio 3 - Tablas HTML</b></a>
+            <a class="nav-link" href="#" onclick="pintar(4)"><b>Ejercicio 4 - Productos en Tablas</b></a>
+            <a class="nav-link" href="#" onclick="pintar(5)"><b>Ejercicio 5 - Audio y Video</b></a>
+            <a class="nav-link" href="#" onclick="pintar(6)"><b>Ejercicio 6 - Formularios HTML</b></a>
+>>>>>>> fcc10db41625732229ec39b0cdd3940e10083dc7
           </nav>
         </div>
         <div class="col-9">
+          <!-- ESPACIO DONDE SE RENDERIZA LOS EJERCICIOS-->
           <div class="body p-3" id="muestra"></div>
         </div>
       </div>
@@ -131,7 +146,10 @@
 <!-- Footer -->
     
 </body>
+<!-- ARCHIVO JS PARA LAS FUNCIONES DE LA APP-->
 <script src="./js/app.js"></script>
+<!-- ARCHIVO JQUERY COMPILADO-->
 <script src="./js/jquery.min.js"></script>
+<!-- ARCHIVO BOOTSTRAP JS COMPILADO-->
 <script src="./js/bootstrap.min.js"></script>
 </html>
