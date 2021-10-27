@@ -35,5 +35,17 @@ function pintar(key) {
             document.getElementById("muestra").innerHTML = "<iframe src='./views/Ejercicio6.html'></iframe>";
             
             break;
+        case 21:
+            document.getElementById("muestra").innerHTML = "<iframe src='./views/EjercicioOutput.html'></iframe>" ;
+
+            break;
+        case 22:
+            document.getElementById("muestra").innerHTML = "<iframe src='./views/EjercicioSelect.html'></iframe>" ;
+
+            break;
+        case 23:
+            document.getElementById("muestra").innerHTML = "<iframe src='./views/EjercicioTextarea.html'></iframe>" ;
+
+            break;
     }
 }

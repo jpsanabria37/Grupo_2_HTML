@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Ejercicios prácticos HTML5</title>
+        <meta charset="utf-8">
+        <meta name="author" content="José Sáez">
+        <meta name="description" content="Ejercicios prácticos HTML5">
+        <meta name="generator" content="www.aprendoencasa.com, Curso práctico HTML5">
+        <meta name="keywords" content="Ejercicios, Soluciones, Prácticas, HTML5">
+    </head>
+    <body>
+        <form name="formulario_datos" id="formulario_datos" action="envio.php" method="get" >
+            <fieldset form="formulario_datos" name="grupo_datos_personales">
+                <legend> Datos Personales </legend>
+                <label for="nombre" form="formulario_datos">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" value="" placeholder="Teclee nombre...">
+                <br>
+                <label for="localidad" form="formulario_datos">Localidad: </label>
+                <input type="text" name="telefono" id="localidad" value="" placeholder="Teclee telefono...">
+                <br>
+            </fieldset>
+            <fieldset form="formulario_datos" name="grupo_datos_comunes">
+                <legend> Otros datos ... </legend>
+                <label for="coche" form="formlario_datos">Vehiculo: </label>
+                <select name="coche" required size="4">
+                    <option value="Ninguno" selected>Ninguno</option>
+                    <optgroup label="Coches Suizos">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                    </optgroup>
+                    <optgroup label="Coches Alemanes">
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </optgroup>
+                </select>
+                <br>
+                <label for="coche" form="formlario_datos">Estado Civil: </label>
+                <select name="estado">
+                    <option value="Ninguno" selected>Ninguno</option>
+                    <option value="casado">Casado</option>
+                    <option value="separado">Separado</option>
+                    <option value="divorciado">Divorciado</option>
+                    <option value="viudo">Viudo</option>
+                </select>
+            </fieldset>
+            <input type="submit" name="enviar" value="Enviar Datos...">
+        </form>
+    </body>
+</html>
