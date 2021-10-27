@@ -26,13 +26,13 @@ function pintar(key) {
 
         //Ejercicio 5
         case 5:
-            document.getElementById("muestra").innerHTML = "<iframe src='eventos.html'></iframe>";
+            document.getElementById("muestra").innerHTML = "<iframe src='./views/Ejercicio_5.html'></iframe>";
     
             break;
 
         //EJERCICIO 6
         case 6:
-            document.getElementById("muestra").innerHTML = "<iframe src='./Ejercicio6.html'></iframe>;
+            document.getElementById("muestra").innerHTML = "<iframe src='./Ejercicio6.html'></iframe>";
             break;
     }
 }
