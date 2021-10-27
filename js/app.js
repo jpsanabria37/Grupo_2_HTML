@@ -15,7 +15,7 @@ function pintar(key) {
             break;
         //Ejercicio 3
         case 3:
-            document.getElementById("muestra").innerHTML = '<img src="tresImagen.jpg"/>';
+            document.getElementById("muestra").innerHTML = '<iframe src="./views/Ejercicio_3.html"></frame>';
 
             break;
         //Ejercicio 4
