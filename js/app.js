@@ -18,5 +18,9 @@ function pintar(key) {
             document.getElementById("muestra").innerHTML = "<iframe src='eventos.html'></iframe>";
 
             break;
-    }
+        //EJERCICIO 6
+        case 6:
+            document.getElementById("muestra").innerHTML = "<iframe src='./Ejercicio6.html'></iframe>;
+            break;
+        }
 }
