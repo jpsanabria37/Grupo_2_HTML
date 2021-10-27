@@ -30,22 +30,41 @@ function pintar(key) {
     
             break;
 
-        //EJERCICIO 6
+        //Ejercicio 6
         case 6:
             document.getElementById("muestra").innerHTML = "<iframe src='./views/Ejercicio6.html'></iframe>";
             
             break;
+        //Ejercicio output
         case 21:
             document.getElementById("muestra").innerHTML = "<iframe src='./views/EjercicioOutput.html'></iframe>" ;
 
             break;
+        //Ejercicio Select
         case 22:
             document.getElementById("muestra").innerHTML = "<iframe src='./views/EjercicioSelect.html'></iframe>" ;
 
             break;
+        //Ejercicio Textarea
         case 23:
             document.getElementById("muestra").innerHTML = "<iframe src='./views/EjercicioTextarea.html'></iframe>" ;
 
+        //Ejercicio Fieldset
+        case 9:
+            document.getElementById("muestra").innerHTML = "<iframe src='./views/Fieldset.html'></iframe>";
+            
+            break;
+
+        //Ejercicio Label
+        case 10:
+            document.getElementById("muestra").innerHTML = "<iframe src='./views/Label.html'></iframe>";
+            
+            break;
+
+        //Ejercicio Fieldset
+        case 11:
+            document.getElementById("muestra").innerHTML = "<iframe src='./views/Keygen.html'></iframe>";
+            
             break;
     }
 }
