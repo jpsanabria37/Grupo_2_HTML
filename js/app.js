@@ -37,4 +37,4 @@ function pintar(key) {
             
             break;
     }
-}
+
