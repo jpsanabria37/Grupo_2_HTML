@@ -24,10 +24,17 @@ function pintar(key) {
 
             break;
 
+<<<<<<< HEAD
+=======
+>>>>>>> d071316110690f31e8b76f30e1eca4d1304861bf
         //Ejercicio 5
         case 5:
             document.getElementById("muestra").innerHTML = "<iframe src='./views/Ejercicio_5.html'></iframe>";
     
+<<<<<<< HEAD
+        break;
+    }
+=======
             break;
 
         //EJERCICIO 6
@@ -36,3 +43,4 @@ function pintar(key) {
             break;
     }
 }
+>>>>>>> d071316110690f31e8b76f30e1eca4d1304861bf
