@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="José González">
+        <meta name="description" content="Ejercicios HTML5">
+        <title>Ejercicio 6</title>
+    </head>
+    <style type="text/css">
+        input[type="file"] {
+            display: none;
+        }
+        .custom-file-upload {
+            border-radius: 2px;
+            border: 1px solid #ccc;
+            display: inline-block;
+            padding: 1px 12px;
+            cursor: pointer;
+}
+    </style>
+<body>
+    <h2>Rellena tu CV</h2>
+    <form method="POST" action="Ejercicio6.html" name="formulario1" autocomplete="on" novalidate target="_self">
+        Nombre<br><input type="text" autofocus><br>
+        Apellidos<br><input type="text" size="45"><br>
+        Contraseña<br><input type="password" name="contraseña" required><br>
+        DNI<br><input type="text" size="10" ><br>
+
+        Sexo<br>
+        <input type="radio" name="genero" value="Hombre">Hombre<br>
+        <input type="radio" name="genero" value="Mujer">Mujer<br>
+        
+        <br>
+
+        Incluir mi foto <input type="text" name="imagen"> 
+        <label class="custom-file-upload">
+            <input type="file" name="imagen">
+            Elegir...
+        </label>
+        <br>
+        <br>
+        <input type="checkbox" checked > Suscribirme al boletín de novedades
+        <br>
+        <br>
+        <input type="submit" name="Guardar" value="Guardar cambios"> <input type="reset" name="borrar" value="Borrar los datos introducidos">
+    </form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    <form method="POST" action="Ejercicio6.html" name="formulario2" autocomplete="on" novalidate target="_self">
+        <label><h2>Formulario estructurado</h2></label>
+        <fieldset>
+            <legend>Datos personales</legend>
+            Nombre<br><input type="text" autofocus><br>
+            Apellidos<br><input type="text"><br>
+            DNI<br><input type="text" size="10" ><br>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de conexión</legend>
+            Nombre de usuario<br><input type="text" required><br>
+            contraseña<br><input type="password" name="contraseña" required><br>
+            Repite la contraseña<br><input type="password" name="contraseña" required><br>
+        </fieldset>
+    </form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    <form method="POST" action="Ejercicio6.html" name="formulario3" autocomplete="on" novalidate target="_self">
+        <h2>Rellena tu CV</h2>
+        <fieldset>
+            <legend>Datos personales</legend>
+            Provincia<br>
+        <select name="provincia">
+            <option value="inicio" selected>- selecciona -</option>
+            <option value="1">Bajo Cauca</option>
+            <option value="2">Magdalena Medio</option>
+            <option value="3">Urabá</option>
+            <option value="4">Soacha</option>
+            <option value="5">Meta</option>
+        </select>
+
+        <br>
+        <br>
+
+        Fecha de nacimiento<br>
+        <input type="date" name="fecha">
+        
+        <br>
+        <br>
+
+        Temás de interés<br>
+        <select size="5px">
+            <option>Administración de bases de datos</option>
+            <option>Análisis y programación</option>
+            <option>Arquitectura</option>
+            <option>Calidad</option>
+            <option>ERP, CRM, Business Intelligence</option>
+            <option>Medicia</option>
+            <option>Música</option>
+            <option>Contabilidad</option>
+        </select>
+    </fieldset>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form method="POST" action="Ejercicio6.html" name="formulario4" autocomplete="on" novalidate target="_self">
+        <h2>Información sobre el producto</h2>
+        <fieldset>
+            <legend>Datos básicos</legend>
+            Nombre<br>
+            <input type="text" name="nombre" size="60"><br>
+            <br>Descripción<br>
+            <textarea name="descripcion" form="formulario4" maxlength="500" cols="60" rows="7"></textarea><br><br>
+            Foto <input type="text" name="imagen"> 
+            <label class="custom-file-upload">
+            <input type="file" name="imagen">
+            Elegir...
+        </label>
+        <br>
+        <br>
+        <input type="checkbox" name="contador"> Añadir contador de visitas
+        </fieldset>
+        <fieldset>
+            <legend>Datos económicos</legend>
+            Precio <input type="text" name="precio" size="2"> € &nbsp; &nbsp; &nbsp;       
+            Impuestos <select>
+                        <option name="1">4%</option>
+                        <option name="2">7%</option>
+                        <option name="3">16%</option>
+                        <option name="4">25%</option>
+                    </select><br><br>
+            Promoción<br>
+            <input type="radio" name="promocion">Ninguno<br>
+            <input type="radio" name="promocion">Transporte gratuito<br>
+            <input type="radio" name="promocion">Descuento 5%<br>
+        </fieldset>
+    </form>
+</body>
+</html>
