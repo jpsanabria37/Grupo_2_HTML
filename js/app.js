@@ -32,7 +32,7 @@ function pintar(key) {
 
         //EJERCICIO 6
         case 6:
-            document.getElementById("muestra").innerHTML = "<iframe src='./Ejercicio6.html'></iframe>";
+            document.getElementById("muestra").innerHTML = "<iframe src='./views/Ejercicio6.html'></iframe>";
             
             break;
     }
