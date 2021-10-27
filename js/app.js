@@ -4,10 +4,10 @@ function pintar(key) {
             document.getElementById("muestra").innerHTML = '';
             break;
         case 1:
-            document.getElementById("muestra").innerHTML = '<img src="unaImagen.jpg"/>';
+            document.getElementById("muestra").innerHTML = '<iframe src="./views/Ejercicio_1.html"></frame>';
             break;
         case 2:
-            document.getElementById("muestra").innerHTML = '<img src="dosImagen.jpg"/>';
+            document.getElementById("muestra").innerHTML = '<iframe src="./views/Ejercicio_2.html"></frame>';
 
             break;
         case 3:

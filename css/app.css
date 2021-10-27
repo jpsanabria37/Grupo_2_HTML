@@ -5,6 +5,21 @@ body {
     background: #dadada;
 }
 
+ol{
+    float: left;
+    width: 75%;
+}
+
+.hover-pointer {
+    background-color: powderblue;
+    transition: background-color;
+}
+
+.hover-pointer:hover {
+    background-color: gold;
+    cursor: pointer;
+}
+
 body > * {
     width: 100%;
     border: 1px solid #000;
@@ -19,6 +34,7 @@ body > *:last-child {
 }
 header{
     background: #FFAAFF;
+    float: top;
 }
 
 header,
@@ -29,7 +45,6 @@ footer {
 aside {
     width: 25%;
     border: 0 solid #000;
-    border-right-width: 1px;
     background:#ff7f50;
 }
 
@@ -41,10 +56,11 @@ aside {
 }
 .container {
     display: flex;
-    min-height: 300px;
+    min-height: 500px;
 }
 #foot{
     background:#90ee90;
+    float: bottom;
 }
 li{
     list-style:none;
