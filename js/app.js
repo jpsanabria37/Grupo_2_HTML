@@ -30,8 +30,8 @@ function pintar(key) {
     
             break;
 
-         //EJERCICIO 6
-         case 6:
+        //EJERCICIO 6
+        case 6:
             document.getElementById("muestra").innerHTML = "<iframe src='./Ejercicio6.html'></iframe>;
             break;
     }
