@@ -20,7 +20,7 @@ function pintar(key) {
             break;
         //Ejercicio 4
         case 4:
-            document.getElementById("muestra").innerHTML = "<iframe src='eventos.html'></iframe>";
+            document.getElementById("muestra").innerHTML = "<iframe src='./views/Ejercicio_4.html'></iframe>";
 
             break;
 
