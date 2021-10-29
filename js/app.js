@@ -59,7 +59,7 @@ function pintar(key) {
             
             break;
 
-        //Ejercicio Fieldset
+        //Ejercicio Keygen
         case 11:
             document.getElementById("muestra").innerHTML = "<iframe src='./views/Keygen.html'></iframe>";
             
