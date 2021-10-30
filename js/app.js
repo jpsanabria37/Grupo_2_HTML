@@ -64,6 +64,11 @@ function pintar(key) {
             document.getElementById("muestra").innerHTML = "<iframe src='./views/Keygen.html'></iframe>";
             
             break;
+             //Ejercicio meter
+        case 12:
+            document.getElementById("muestra").innerHTML = "<iframe src='./views/meter.html'></iframe>";
+            
+            break;
         //Ejercicio 13
         case 13:
             document.getElementById("muestra").innerHTML = "<iframe src='./views/Ejercicio_13.html'></iframe>" ;
